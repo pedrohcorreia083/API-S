@@ -885,28 +885,26 @@ section,
 .hero .fluid-shape .fluid-img {
   width: 100%;
   height: auto;
-  animation: stylish-float 8s ease-in-out infinite;
+  animation: voar 2s ease-in-out infinite;
 }
 
-@keyframes stylish-float {
-  0% {
-    transform: translate(0, 0) rotate(0deg) scale(1);
+@keyframes voar {
+
+  0%,
+  100% {
+    transform: translateY(0px) rotate(0deg);
   }
 
   25% {
-    transform: translate(5px, -10px) rotate(2deg) scale(1.02);
+    transform: translateY(-10px) rotate(-3deg);
   }
 
   50% {
-    transform: translate(0, -15px) rotate(0deg) scale(1);
+    transform: translateY(0px) rotate(3deg);
   }
 
   75% {
-    transform: translate(-5px, -10px) rotate(-2deg) scale(1.02);
-  }
-
-  100% {
-    transform: translate(0, 0) rotate(0deg) scale(1);
+    transform: translateY(10px) rotate(-3deg);
   }
 }
 
