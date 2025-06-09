@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIS Assessoria Contábil</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <style>
+        :root {
+            --brown: #603c26;
+            --light-gray: #999;
+            --white: #fff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--brown);
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: var(--brown);
+            color: var(--white);
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header img {
+            width: 100px;
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-top: 20px;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: #fff;
+        }
+
+        .card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .btn {
+            background-color: var(--brown);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #472e1b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f5f5f5;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header data-aos="fade-down">
+        <img src="Icone_SemFundo.png" alt="Logo Libélula" />
+        <h1>Porque a sua EMPRESA precisa de uma Assessoria Contábil!</h1>
+        <p style="margin-top: 20px; font-size: 1.1rem;">"Uma boa gestão contábil é o primeiro passo para o SUCESSO do
+            seu NEGÓCIO."</p>
+    </header>
+
+    <section data-aos="fade-up">
+        <h2>Conheça nossos Serviços</h2>
+        <div class="cards">
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Abertura, Alterações e Encerramento de Empresa</h3>
+                <p>Especialistas guiando sua empresa do início ao fim com segurança e personalização.</p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <h3>Assessoria Contábil e Fiscal</h3>
+                <p>Conformidade legal, otimização de tributos e relatórios precisos para decisões assertivas.</p>
+            </div>
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <h3>Assessoria Trabalhista</h3>
+                <p>Gestão completa da folha de pagamento com soluções eficazes do início ao fim da relação empregatícia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-right">
+        <h2>Sobre</h2>
+        <p><strong>TRANSPARÊNCIA E SEGURANÇA EM CADA NÚMERO</strong></p>
+        <p>Na APIS Assessoria Contábil, oferecemos atendimento personalizado, segurança e clareza para você tomar as
+            melhores decisões para o seu negócio.</p>
+        <br />
+        <p><strong>Experiência e tecnologia a seu favor.</strong><br />
+            Utilizamos ferramentas modernas, reduzimos sua carga tributária e atuamos como consultores estratégicos rumo
+            ao seu sucesso.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 APIS Assessoria Contábil. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000 });
+    </script>
+</body>
+
+</html>
