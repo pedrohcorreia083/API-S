@@ -669,7 +669,7 @@ section,
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding: 100px 0;
+  padding-top: 60px;
 }
 
 .hero::after {
