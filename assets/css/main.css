@@ -1321,6 +1321,34 @@ section,
   margin-bottom: 60px;
 }
 
+.service-header {
+  background-color: #f5f2ee;
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.service-heading {
+  font-size: 1.8rem;
+  color: #5e3d2c;
+}
+
+.text-accent {
+  color: #a86c49;
+  font-weight: bold;
+}
+
+.service-intro p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.service-header img {
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+
 .services .service-header .service-intro .service-heading {
   font-size: 48px;
   margin-bottom: 0;
