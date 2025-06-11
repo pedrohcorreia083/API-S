@@ -1327,6 +1327,13 @@ section,
   padding: 40px;
 }
 
+.construc {
+  background-color: #f5f2ee;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.48);
+}
+
 .service-heading {
   font-size: 1.8rem;
   color: #5e3d2c;
@@ -1342,10 +1349,10 @@ section,
   color: #444;
 }
 
-.service-header img {
+.construc img {
   border-radius: 25px;
   transition: transform 0.3s ease;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.55);
 }
 
 
