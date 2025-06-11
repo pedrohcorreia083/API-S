@@ -123,7 +123,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-color);
+    color: #a5a5a5;
     padding: 18px 15px;
     font-size: 16px;
     font-family: var(--nav-font);
@@ -150,7 +150,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: var(--contrast-color);
   }
 
   .navmenu .dropdown ul {
@@ -669,7 +669,7 @@ section,
   display: flex;
   align-items: center;
   overflow: hidden;
-  padding-top: 60px;
+  padding: 100px 0;
 }
 
 .hero::after {
@@ -749,7 +749,7 @@ section,
   width: 60%;
   height: 1px;
   background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 767px) {
