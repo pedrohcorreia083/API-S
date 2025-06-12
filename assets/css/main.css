@@ -950,7 +950,7 @@ section,
 
 .about .about-image .experience-badge {
   position: absolute;
-  bottom: 30px;
+  bottom: 120px;
   right: -20px;
   background: var(--accent-color);
   color: var(--contrast-color);
