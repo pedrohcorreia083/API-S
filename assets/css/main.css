@@ -950,7 +950,7 @@ section,
 
 .about .about-image .experience-badge {
   position: absolute;
-  bottom: 120px;
+  bottom: 30px;
   right: -20px;
   background: var(--accent-color);
   color: var(--contrast-color);
@@ -978,7 +978,7 @@ section,
 @media (max-width: 768px) {
   .about .about-image .experience-badge {
     right: 0;
-    bottom: 20px;
+    bottom: 70px;
     padding: 1rem;
     min-width: 120px;
   }
