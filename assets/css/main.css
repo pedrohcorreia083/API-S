@@ -1214,6 +1214,12 @@ section,
   margin-bottom: 10px;
 }
 
+.client-box img {
+  height: auto;
+  width: 36px;
+  margin-bottom: 10px;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-image: none;
