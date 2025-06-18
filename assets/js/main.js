@@ -156,15 +156,6 @@
   });
 
   /**
-   * Frequently Asked Questions Toggle
-   */
-  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle, .faq-item .faq-header').forEach((faqItem) => {
-    faqItem.addEventListener('click', () => {
-      faqItem.parentNode.classList.toggle('faq-active');
-    });
-  });
-
-  /**
    * Correct scrolling position upon page load for URLs containing hash links.
    */
   window.addEventListener('load', function (e) {
@@ -182,11 +173,6 @@
     }
   });
 
-  document.querySelector('.hero-transition').addEventListener('click', function () {
-    document.querySelector('#about').scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
 
   /**
    * Navmenu Scrollspy
